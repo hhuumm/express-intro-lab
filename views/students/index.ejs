@@ -1,0 +1,20 @@
+<body>
+<h1>Students</h1>
+<ul>
+<% squad.forEach(function(s){%>
+
+    <li>
+        <%= s.name %>
+        -
+        <%= s.pod ? "is in my pod!" : "Not in my pod"%>
+    </li>
+<% }); %>
+</ul>
+
+
+
+
+
+
+
+</body>
